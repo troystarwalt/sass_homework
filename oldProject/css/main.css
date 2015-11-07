@@ -2,6 +2,13 @@ body {
   font: 100% Helvetica, sans-serif;
   color: #DB162F; }
 
+.navbar-left {
+  list-style-type: none;
+  font-size: 300%; }
+  .navbar-left li {
+    display: inline-block;
+    margin-left: 20px; }
+
 div.cari .circular {
   width: 300px;
   height: 300px;
@@ -9,7 +16,8 @@ div.cari .circular {
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   background: url("../images/caracarly.jpg") no-repeat;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 150%; }
 div.cari .circularone {
   width: 300px;
   height: 300px;
@@ -17,7 +25,8 @@ div.cari .circularone {
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   background: url("../images/caracruz.jpg") no-repeat;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 150%; }
 div.cari .circulartwo {
   width: 300px;
   height: 300px;
@@ -25,6 +34,7 @@ div.cari .circulartwo {
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   background: url("../images/caratrump.jpg") no-repeat;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 150%; }
 
 /*# sourceMappingURL=main.css.map */
