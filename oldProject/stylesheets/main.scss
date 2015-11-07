@@ -1,0 +1,186 @@
+$font-stack: Helvetica, sans-serif;
+$primary-font-color: #DB162F;
+$secondary-font-color: #3B1F2B;
+$primary-background-color: #DBDFAC;
+
+body {
+	font: 100% $font-stack;
+	color: $primary-font-color;
+}
+
+
+//circle picture holders
+div.cari {
+	.circular {
+		width: 300px;
+		height: 300px;
+		border-radius: 150px;
+		-webkit-border-radius: 150px;
+		-moz-border-radius: 150px;
+		background: url('../images/caracarly.jpg') no-repeat;
+		display: inline-block;
+	}
+
+	.circularone {
+		width: 300px;
+		height: 300px;
+		border-radius: 150px;
+		-webkit-border-radius: 150px;
+		-moz-border-radius: 150px;
+		background: url('../images/caracruz.jpg') no-repeat;
+		display: inline-block;
+	}
+
+	.circulartwo {
+		width: 300px;
+		height: 300px;
+		border-radius: 150px;
+		-webkit-border-radius: 150px;
+		-moz-border-radius: 150px;
+		background: url('../images/caratrump.jpg') no-repeat;
+		display: inline-block;
+	}
+}
+
+
+//------Old code from CSS---------
+// body {
+// 	margin:0;
+// }
+
+// html {
+// /*	background-image: url("../images/corn.jpg");
+//     background-color: #cccccc;
+//     background-attachment: fixed;
+//     background-repeat: no-repeat;
+//     background-position: center;*/
+// /*Trying something new.*/
+//     background: url(../images/corn.jpg) no-repeat center center fixed; 
+//   	-webkit-background-size: cover;
+//   	-moz-background-size: cover;
+//   	-o-background-size: cover;
+//   	background-size: cover;
+// }
+
+// #banner {
+// 	text-align: center;
+// 	width:900px;
+// 	background-color:transparent;
+// }
+
+// .tagline {
+// 	background-color: transparent;
+// }
+
+// .overlayban::hover {
+
+// }
+
+// #wrapper {
+// 	margin:0 auto;
+// 	width:900px;
+// 	font-family:Helvetica, Arial, sans-serif;
+// 	background-color: transparent;
+// }
+
+// nav {
+// 	text-align: center;
+// 	background-color: transparent;
+// 	width:100%;
+// }
+
+// #navi li {
+// 	display: inline-block;
+// 	list-style-type: none;
+// 	padding:10px;
+// 	margin-left: 10px;
+// 	margin-right: 10px;
+// 	font-size: 18px;
+// }
+
+// a:link {
+//     text-decoration: none;
+//     color: black;
+//     background-color: transparent;
+// }
+
+// a:visited {
+//     text-decoration: none;
+//     color: black;
+//     background-color: transparent;
+// }
+
+// #navi a:hover {
+//     text-decoration: bold;
+//     background-image: url(../images/flag.png);
+//     background-size: 50% 50%;
+//     background-repeat: no-repeat;
+//     background-position: center;
+// }
+
+// a:active {
+//     text-decoration: none;
+//     color: black;
+//     background-color: transparent;
+// }
+// .floatedright {
+// 	float:right;
+// 	margin: 3px;
+// 	width:230px;
+// }
+
+// .floatedleft {
+// 	float:left;
+// 	margin-left: 20px;
+// 	margin-right: 20px;
+// }
+
+// article {
+// 	background-color: #eeeeee;
+// 	padding: 5px;
+// 	overflow: hidden;
+// }
+
+// .opening {
+// 	font-style: bold;
+// 	text-align: center;
+// }
+
+// #cvid {
+// 	float: left;
+// 	margin-left: 15px;
+// 	margin-right: 15px;
+// }
+
+// .cari {
+// 	margin-left: 15%
+// }
+
+// #center {
+// 	float: left;
+// 	max-width: 250px;
+// }
+
+
+// #movingtrump {
+// 	position: fixed;
+// 	top:250px;
+// 	left:220px;
+// }
+
+// .imagefloatfix{
+// 	margin:40px;
+// }
+
+// .vote {
+// 	font-size: 15px;
+// }
+
+// .clear {
+// 	clear:both;
+// }
+
+// footer {
+// 	color: white;
+// 	bottom: 10px;
+// }

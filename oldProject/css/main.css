@@ -1,0 +1,30 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #DB162F; }
+
+div.cari .circular {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url("../images/caracarly.jpg") no-repeat;
+  display: inline-block; }
+div.cari .circularone {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url("../images/caracruz.jpg") no-repeat;
+  display: inline-block; }
+div.cari .circulartwo {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url("../images/caratrump.jpg") no-repeat;
+  display: inline-block; }
+
+/*# sourceMappingURL=main.css.map */
