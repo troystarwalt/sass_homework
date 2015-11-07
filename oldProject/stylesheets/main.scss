@@ -4,39 +4,39 @@ $font-stack: Helvetica, sans-serif;
 $primary-font-color: #DB162F;
 $secondary-font-color: #3B1F2B;
 $primary-background-color: #DBDFAC;
+$basic-font-size: 150%;
 
 body {
 	font: 100% $font-stack;
 	color: $primary-font-color;
-}
-
-//navigation
-
-.navbar-left {
-	list-style-type: none;
-	font-size: 300%;
-
-	// @include radial-gradient (#1e5799, #3dc3d1);
-
-	li {
-		display: inline-block;
-		margin-left: 20px;
-	}
+	margin: 0;
+	@include linear-gradient(#c3d9ff, white);
 }
 
 
+@import 'nav';
 
+.tagline {
+	text-align: center;
+}
 
+#threephotos {
+	margin-top: 30px;
+}
+
+.p_font {
+	font-size: $basic-font-size;
+}
 
 //circle picture holders
-div.cari {
+div.row {
 	.circular {
 		width: 300px;
 		height: 300px;
 		border-radius: 150px;
 		-webkit-border-radius: 150px;
 		-moz-border-radius: 150px;
-		background: url('../images/caracarly.jpg') no-repeat;
+		background: url('../images/caracarly.jpg') -50px -50px no-repeat;
 		display: inline-block;
 		font-size: 150%;
 	}
@@ -62,6 +62,15 @@ div.cari {
 		display: inline-block;
 		font-size: 150%;
 	}
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	font-size: 150%;
+	border: solid 1px green;
+	margin-left: 33%;
+
 }
 //-----
 

@@ -1,24 +1,44 @@
 body {
   font: 100% Helvetica, sans-serif;
-  color: #DB162F; }
+  color: #DB162F;
+  margin: 0;
+  background-color: #c3d9ff;
+  background-image: -webkit-linear-gradient(#c3d9ff, white);
+  background-image: linear-gradient(#c3d9ff, white); }
 
 .navbar-left {
   list-style-type: none;
-  font-size: 300%; }
+  font-size: 300%;
+  border: 1px solid green;
+  margin: 0 auto; }
   .navbar-left li {
-    display: inline-block;
-    margin-left: 20px; }
+    display: inline-block; }
+  .navbar-left a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none; }
+  .navbar-left a:hover {
+    text-decoration: underline; }
 
-div.cari .circular {
+.tagline {
+  text-align: center; }
+
+#threephotos {
+  margin-top: 30px; }
+
+.p_font {
+  font-size: 150%; }
+
+div.row .circular {
   width: 300px;
   height: 300px;
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
-  background: url("../images/caracarly.jpg") no-repeat;
+  background: url("../images/caracarly.jpg") -50px -50px no-repeat;
   display: inline-block;
   font-size: 150%; }
-div.cari .circularone {
+div.row .circularone {
   width: 300px;
   height: 300px;
   border-radius: 150px;
@@ -27,7 +47,7 @@ div.cari .circularone {
   background: url("../images/caracruz.jpg") no-repeat;
   display: inline-block;
   font-size: 150%; }
-div.cari .circulartwo {
+div.row .circulartwo {
   width: 300px;
   height: 300px;
   border-radius: 150px;
@@ -36,5 +56,12 @@ div.cari .circulartwo {
   background: url("../images/caratrump.jpg") no-repeat;
   display: inline-block;
   font-size: 150%; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 150%;
+  border: solid 1px green;
+  margin-left: 33%; }
 
 /*# sourceMappingURL=main.css.map */
