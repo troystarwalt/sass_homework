@@ -1,0 +1,30 @@
+nav {
+	padding: 0px;
+	background-color: white;
+	border: 2px solid;
+	border-radius: 15px;
+	@include black(.4);
+	ul {
+		text-align: center;
+		height: 3em;
+	}
+	li {
+		font-size: 2em;
+		font-family: impact;		
+		display: inline-block;
+		padding: 2px 30px 1px;
+		text-align: center;
+		
+		a:link, a:active {
+			// text-decoration: none;
+			color: #1BE7FF;
+		}
+
+		a:hover {
+			color: #FF5714;
+			text-decoration: underline;
+			@include fontchange(2.1em, Arial);
+		}
+
+	}
+}

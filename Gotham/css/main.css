@@ -1,0 +1,44 @@
+nav {
+  background-color: #404040;
+  width: 1080px;
+  height: 50px; }
+  nav ul {
+    list-style: none;
+    margin: auto;
+    /*		padding-left: 20px;*/
+    text-align: right; }
+    nav ul li {
+      display: inline-block;
+      margin-left: 5%; }
+      nav ul li a:link, nav ul li a:active, nav ul li a:visited {
+        text-decoration: none;
+        font-size: 1.5em;
+        color: gray; }
+      nav ul li a:hover {
+        color: white; }
+
+body {
+  margin: 0;
+  background-color: #cccccc; }
+  body .wrapper {
+    margin: 0 auto;
+    width: 1080px; }
+
+#largeimage div {
+  background-image: url("../bigbat.jpg");
+  width: 1080px;
+  height: 608px; }
+
+#smallimage div {
+  background-image: url("../small_bat.png");
+  width: 590px;
+  height: 215px; }
+
+@media all and (min-width: 481px) {
+  #smallimage {
+    display: none; } }
+@media all and (max-width: 480px) {
+  #largeimage {
+    display: none; } }
+
+/*# sourceMappingURL=main.css.map */

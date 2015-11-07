@@ -1,0 +1,38 @@
+
+@mixin black($opacity){
+	background-color: black;
+	-webkit-opacity: $opacity;
+	-moz-opacity: $opacity;
+	-ms-opacity: $opacity; 
+	-o-opacity: $opacity;  
+	opacity: $opacity;
+}
+
+@mixin fontchange($font-size, $font-family){
+	font-size: $font-size;
+	font-family: $font-family;
+}
+
+body {
+	background-color: #6EEB83;
+	.container {
+		width: 1080px;
+		margin: auto;
+	}
+}
+
+@import 'nav';
+
+@each $listclass in disc, circle, decimal, none {
+	.#{$listclass}-icon {
+	list-style-type: $listclass;
+	}
+}
+
+
+
+
+
+
+
+

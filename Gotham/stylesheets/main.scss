@@ -1,0 +1,36 @@
+@import 'bourbon/bourbon';
+@import 'nav';
+
+body {
+	margin: 0;
+	background-color:tint(black, 80%);
+	
+	.wrapper {
+		margin: 0 auto;
+		width: 1080px;
+	}	
+}
+
+#largeimage div {
+	background-image: url('../bigbat.jpg');
+	width: 1080px;
+	height: 608px;
+}
+
+#smallimage div {
+	background-image: url('../small_bat.png');
+	width: 590px;
+	height: 215px;
+}
+
+@media all and (min-width: 481px) {
+	#smallimage {
+		display: none;
+	}
+}
+
+@media all and (max-width: 480px) {
+	#largeimage {
+		display: none;
+	}
+}
